@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why I Can't Work with Adi at Kyosko Cafe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header, section, footer {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 0;
+        }
+        .hero-section button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #ff6666;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .hero-section button:hover {
+            background-color: #ff3333;
+        }
+        .timeline {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .timeline li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #e6e6e6;
+            border-left: 4px solid #ff6666;
+            font-weight: bold;
+        }
+        .quote-box {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #ffebcc;
+            border-left: 4px solid #ffcc66;
+            font-style: italic;
+        }
+        .accordion {
+            margin: 20px 0;
+        }
+        .accordion-item {
+            background-color: #e6e6e6;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .accordion-item h3 {
+            margin: 0;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .accordion-item-content {
+            display: none;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-top: 1px solid #ccc;
+        }
+        .poll {
+            margin: 20px 0;
+        }
+        .poll label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .marquee {
+            margin: 20px 0;
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: #ff6666;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .footer-links {
+            list-style-type: none;
+            padding: 0;
+        }
+        .footer-links li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .footer-links a {
+            text-decoration: none;
+            color: #ff6666;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        .contact-form {
+            margin: 20px 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #ff6666;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #ff3333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Why I Can't Work with Adi at Kyosko Cafe</h1>
+    <div class="hero-section">
+        <p>A tragic tale of a friendship tested by questionable fashion choices.</p>
+        <button onclick="scrollToSection()">Learn More</button>
+    </div>
+</header>
+
+<section id="backstory">
+    <h2>It All Started with a Plan...</h2>
+    <p>Adi and I had this perfect plan to work together at Kyosko Cafe. The ambiance, the coffee, the Wi-Fi – it was all set. But then, everything changed.</p>
+    <ul class="timeline">
+        <li>Day 1: The idea was born.</li>
+        <li>Day 2: We finalized the plan.</li>
+        <li>Day 3: Adi sent The Photo.</li>
+    </ul>
+</section>
+
+<section id="the-duck">
+    <h2>The Day of the Duck</h2>
+    <p>Adi sent me a photo. But not just any photo – a photo that would haunt my dreams. A photo of him wearing a shirt with a... duck.</p>
+    <div class="quote-box">"I can't even look at eggs the same way anymore." – Me</div>
+</section>
+
+<section id="reasons">
+    <h2>Why I Can't Face the Duck (or Adi) in Public</h2>
+    <div class="accordion">
+        <div class="accordion-item">
+            <h3 onclick="toggleAccordionContent(this)">Reason 1: The Duck Haunts Me</h3>
+            <div class="accordion-item-content">
+                <p>Every time I see a duck, I think of that shirt. It's become a Pavlovian response.</p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 onclick="toggleAccordionContent(this)">Reason 2: The Cafe's Reputation</h3>
+            <div class="accordion-item-content">
+                <p>Kyosko Cafe is a respectable establishment. They don't deserve to be associated with such fashion atrocities.</p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 onclick="toggleAccordionContent(this)">Reason 3: My Mental Health</h3>
+            <div class="accordion-item-content">
+                <p>I need to preserve my sanity. Sitting across from that shirt is simply too much.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="solution">
+    <h2>What Can Be Done?</h2>
+    <p>There is only one solution: a wardrobe intervention.</p>
+    <div class="poll">
+        <p>Vote on what Adi should wear next time:</p>
+        <label><input type="radio" name="poll" value="option1"> Anything but the duck</label>
+        <label><input type="radio" name="poll" value="option2"> A full tuxedo</label>
+        <label><input type="radio" name="poll" value="option3"> A costume from Comic-Con</label>
+    </div>
+</section>
+
+<section id="conclusion">
+    <h2>In Conclusion...</h2>
+    <p>Adi, I appreciate you, but I can't – in good conscience – be seen with you in that shirt at Kyosko Cafe. Let's revisit our plans after a wardrobe upgrade.</p>
+    <div class="marquee">Say No to Duck Shirts.</div>
+</section>
+
+<footer>
+    <ul class="footer-links">
+        <li><a href="#">Duck Shirt Anonymous</a></li>
+        <li><a href="#">Fashion Rehab</a></li>
+        <li><a href="#">Donate to Save My Eyes</a></li>
+    </ul>
+    <div class="contact-form">
+        <p>Reach Out (But Please, No More Duck Photos):</p>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button>Send</button>
+    </div>
+</footer>
+
+<script>
+    function scrollToSection() {
+        document.getElementById('backstory').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function toggleAccordionContent(element) {
+        const content = element.nextElementSibling;
+        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    }
+</script>
+
+</body>
+</html>
